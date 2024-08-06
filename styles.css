@@ -1,2 +1,47 @@
 
 /* Your CSS Code here. */
+body
+{
+	background-color:lightseagreen;
+	
+}
+form
+{
+	max-width:100%;
+	font-family:Arial;
+	font-size:bold;
+	padding:20px;
+	border-radius:3px;
+	
+}
+input[type="name"],
+input[type="phone"],
+input[type="address"],
+input[type="liveWithDog"],
+input[type="preferredBreed"]
+{
+	width:100%;
+	padding:4pa;
+	margin-bottom:16px;
+	border-radius:4px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+
